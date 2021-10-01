@@ -1,3 +1,10 @@
+# Home Automation Hub Web App
+
+A web app to collect, store, and monitor different sensors and IoT devices.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
