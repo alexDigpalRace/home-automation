@@ -7,7 +7,7 @@ const Homepage = () => {
         <>
             <Header title='Welcome Alex'/>
             <DashboardContainer />
-            <GroupsContainer />
+            <GroupsContainer/>
         </>
     );
 }

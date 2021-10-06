@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const GroupCard = ({ name }) => {
     return (
-        <form>
-            <input type='submit' value={name} />
-        </form>
+        <Link to='/group' style={{color: 'white'}}>
+            {name}
+        </Link>
     );
 };
 

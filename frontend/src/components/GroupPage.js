@@ -4,11 +4,13 @@ import DeviceContainer from './DeviceContainer';
 
 const GroupPage = ({ groupName }) => {
     return (
-        <div>
+        <>
             <Header title={groupName} />
-            <NewDeviceContainer />
-            <DeviceContainer />
-        </div>
+            <div className='Group-Page-Containers-Container'>
+                <NewDeviceContainer />
+                <DeviceContainer />
+            </div>
+        </>
     );
 };
 

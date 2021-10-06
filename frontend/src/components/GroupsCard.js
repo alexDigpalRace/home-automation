@@ -13,7 +13,7 @@ const GroupsCard = () => {
 
     return (
         <div className='Groups-Item'>
-            {groupAdded ? <GroupCard name={ groupName }/> : <AddGroupCard onClick={ addNewGroup }/>}
+            {groupAdded ? <GroupCard name={groupName}/> : <AddGroupCard onClick={ addNewGroup }/>}
         </div>
     );
 };

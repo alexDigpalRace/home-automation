@@ -21,7 +21,7 @@
   height: 10vh;
 }
 
-/* Dashboard */
+/* HOMEPAGE: Dashboard */
 .Dashboard-Container {
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@
   position: relative;
 }
 
-/* Groups */
+/* HOMEPAGE: Groups */
 .Groups-Container {
   display: flex;
   flex-direction: row;
@@ -70,4 +70,33 @@
   width: 90%;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+/* GROUP PAGE: default container */
+.Group-Page-Containers-Container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 80%;
+}
+
+.Group-Page-Containers {
+  position: relative;
+  margin: auto;
+  height: 90%;
+  width: 40%;
+  border: 3px solid #61dafb;
+  display: flex;
+  flex-direction: column;
+}
+
+.Group-Page-Device-btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
