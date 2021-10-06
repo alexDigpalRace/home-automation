@@ -1,11 +1,12 @@
 import './App.css';
+import GroupPage from './components/GroupPage';
+import Homepage from './components/homepage';
 
 function App() {
     return (
     <div className="App">
-      <header className="App-header">
-        <p> In react! </p>
-      </header>
+        {/* <Homepage/> */}
+        <GroupPage />
     </div>
   );
 }
